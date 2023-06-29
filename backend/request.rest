@@ -1,0 +1,33 @@
+GET http://localhost:5000/cust
+
+###
+GET http://localhost:5000/cust/1
+
+###
+POST http://localhost:5000/cust
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "address": "New York",
+    "type_service": "normal",
+    "note": "test"
+}
+
+###
+PATCH  http://localhost:5000/cust/3
+Content-Type: application/json
+
+{
+    "name": "Dyah",
+    "address": "Tabanan",
+    "type_service": "Express",
+    "note": "test 2"
+}
+
+###
+DELETE   http://localhost:5000/cust/2
+
+
+
+

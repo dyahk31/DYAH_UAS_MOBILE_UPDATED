@@ -1,0 +1,25 @@
+Nama : Putu Dyah Kencana Dewi
+NIM : 2001020003
+
+Frontend : React Native
+Backend : Express.js
+
+Project ini merupakan project pemesanan order laundry menggunakan konsep CRUD. Project ini dapat dijalankan menggunakan EXPO Go Offline melalui VSCode. Berikut adalah cara untuk menjalankannya :
+
+1. Pastikan anda sudah clone repository projectnya.
+2. Start APACHE dan MYSQL pada XAMPP
+3. Buat databse terlebih dahulu pada localhost anda dengan nama 'laundry_db'
+4. Untuk menghidupkan API alias menjalankan backend, masuk ke folder backend kemudian ketik 'nodemon index' pada terminal
+5. Untuk menjalakan frontendnya, masuk ke folder frontend kemudian ketik 'npx expo start'
+6. Untuk menghentikan, tinggal CTRL + C saja.
+
+DISCLAIMER :
+untuk menjalankan backend, apabila penggunaan link api 'http://localhost:5000/cust' tidak bisa berjalan, anda dapat mengganti 'localhost' di semua link http API dengan menyesuaikan IP Address anda, contohnya seperti ini 'http://192.168.0.9:5000/cust'.
+
+Sebenarnya ssaya juga membuat Expo GO Onlinenya, namun UInya sedikit berbeda dengan Expo Go Offline dikarenakan webnya error terus, jadi saya beralih ke Expo Go Offline.
+Link Expo Go Online : https://snack.expo.dev/@dkd31/uas-dyah
+
+Referensi : https://www.youtube.com/watch?v=es9_6RFR7wk&t=1665s
+
+Terima kasih sudah membaca dengan baik, semoga dapat dimengerti
+Have a nice day ^^
